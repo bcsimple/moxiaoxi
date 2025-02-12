@@ -4,7 +4,7 @@ import sidebar from "./sidebar.mjs";
 
 
 export default defineConfig({
-  base: "moxiaoxi",
+  base: "/moxiaoxi/",
   title: "MoXiaoXi Notes",
   description: "MoXiaoXi Notes",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
