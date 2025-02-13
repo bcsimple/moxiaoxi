@@ -4,15 +4,16 @@ import sidebar from "./sidebar.mjs";
 
 
 export default defineConfig({
-  base: "/moxiaoxi/",
   title: "MoXiaoXi Notes",
   description: "MoXiaoXi Notes",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   srcDir: "base",
+  ignoreDeadLinks: true,
   lastUpdated: true,
+  base: "/moxiaoxi",
   rewrites: {
-    'notes/:pkg/(.*)': ':pkg/(.*)',
-    'notes/operator/:pkg/(.*)': 'operator/:pkg/(.*)',
+    // 'notes/operator/:pkg/(.*)': '/operator/:pkg/index.md',
+    // 'notes/:pkg/(.*)': '/:pkg/index.md',
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

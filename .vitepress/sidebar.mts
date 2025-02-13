@@ -1,5 +1,5 @@
 export default {
-    '/kubernetes/': [
+    '/notes/kubernetes/': [
         {
             text: 'kubernetes',
             items: [
@@ -9,7 +9,7 @@ export default {
             ]
         }
     ],
-    '/istio/': [
+    '/notes/istio/': [
         {
             text: 'istio',
             items: [
@@ -19,17 +19,17 @@ export default {
             ]
         }
     ],
-    '/operator/docker': [
+    '/notes/operator/docker': [
         {
             text: 'docker',
             items: [
-                {text: 'Index', link: '/guide/'},
-                {text: 'One', link: '/guide/one'},
-                {text: 'Two', link: '/guide/two'}
+                {text: 'docker基础', link: '/notes/operator/docker/test'},
+                {text: 'docker部署', link: '/notes/operator/docker/test1'},
+                {text: 'docker搭建', link: '/notes/operator/docker/test2'}
             ]
         }
     ],
-    '/operator/linux': [
+    '/notes/operator/linux': [
         {
             text: 'linux',
             items: [
@@ -39,7 +39,7 @@ export default {
             ]
         }
     ],
-    '/operator/ansible': [
+    '/notes/operator/ansible': [
         {
             text: 'ansible',
             items: [
@@ -49,7 +49,7 @@ export default {
             ]
         }
     ],
-    '/operator/network': [
+    '/notes/operator/network': [
         {
             text: 'network',
             items: [
@@ -59,14 +59,14 @@ export default {
             ]
         }
     ],
-    '/training/': [
+    '/notes/training/': [
         {
             text: '培训相关',
             items: [
-                {text: '1.20250102期数', link: '/training/20250102'},
-                {text: '2.20250103期数', link: '/training/20250103'},
-                {text: '3.20250104期数', link: '/training/20250104'},
-                {text: '4.20250105期数', link: '/training/20250104'},
+                {text: '1.20250102期数', link: '/notes//training/20250102'},
+                {text: '2.20250103期数', link: '/notes//training/20250103'},
+                {text: '3.20250104期数', link: '/notes//training/20250104'},
+                {text: '4.20250105期数', link: '/notes//training/20250104'},
             ]
         }
     ]
