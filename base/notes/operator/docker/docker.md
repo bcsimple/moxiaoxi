@@ -107,7 +107,7 @@ Docker 基础。
     + 然后选择相应的系统，下边会有对应的代码，复制执行即可
     + 查看镜像是否设置成功
         + `docker info`查看信息中，有如下图，则为设置成功
-        + ![image-20210203222421924](assets/image-20210203222421924.png)
+
 
     + 加速效果很明显
 
@@ -140,12 +140,10 @@ Docker 基础。
 
     + ###### `docker images`，查看本地镜像的相关信息
 
-        + ![image-20210203224822045](assets/image-20210203224822045.png)
         + `CREATED`，镜像的创建时间，不是下载时间
 
     + `docker images -q`，只显示镜像`id`
 
-        + ![image-20210204111344523](assets/image-20210204111344523.png)
 
     +
 
@@ -158,13 +156,11 @@ Docker 基础。
         + ###### 根据摘要拉取
 
             + `docker pull mysql:@DIGEST:sha256:1c224b6270c6a02f9e7eb9e4ca6486d3466f12be7390c0c0b6e6f908ea1a0346`
-            + ![image-20210203225533063](assets/image-20210203225533063.png)
 
     + ##### 通过命令行搜索相关的镜像
 
         + `docker search resdis`
             + 和网页搜索是一样的效果
-            + ![image-20210203225640933](assets/image-20210203225640933.png)
 
     + ##### 手动将本地镜像文件导入到docker仓库
 
@@ -256,7 +252,6 @@ Docker 基础。
 
         + `docker exec -it container_name|container_id CMMD`
             + `bash`，进入容器并与容器内的命令终端交互
-            + ![image-20210204153336468](assets/image-20210204153336468.png)
 
         + `exit`，退出交互
 
@@ -424,7 +419,6 @@ Docker 基础。
 
     + Dockerfile，是一个用来构建镜像的文本文件，文本内容包含了一条条构建镜像所需的指令和说明
     + 用于构建自己的应用的镜像
-    + ![大致构建流程](assets/image-20210219165256566.png)
 
 + ##### 构建镜像
 
@@ -815,7 +809,6 @@ Docker 基础。
 
 + ##### 一些说明
 
-    + ![image-20210225164537961](assets/image-20210225164537961.png)
         + `stack`，栈，一个`stack`就带表一个`docker-compose`在运行
 
 ## 相关链接
