@@ -1,7 +1,6 @@
 # MyDocker
 Docker 基础。
 
-![image-20210202223252532](assets/image-20210202223252532.png)
 
 ## 1.基本概念
 
