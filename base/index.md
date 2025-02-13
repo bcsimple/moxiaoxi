@@ -5,15 +5,15 @@ layout: home
 hero:
   name: "MoXiaoXi Notes"
   text: "笔记知识库"
-  tagline: My great project tagline
+#  tagline: My great project tagline
   image:  { light: "/index/index-light.png", dark: "/index/index-dark.png",alt: "logo" }
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: kubernetes笔记
+      link: /notes/kubernetes/kubernetes.html
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 培训笔记
+      link: /notes/training/training.html
 
 features:
   - title: Kubernetes Notes
