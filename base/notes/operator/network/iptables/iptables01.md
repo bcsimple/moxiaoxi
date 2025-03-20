@@ -167,7 +167,7 @@ ff02::2 ip6-allrouters
 
 
 
-![image-20250320183305419](/Users/zhangshun/Documents/Document/小程序/basic-test/项目/vitepress-02/base/notes/operator/network/iptables/iptables01.assets/image-20250320183305419.png)
+![image-20250320183305419](./iptables01.assets/image-20250320183305419.png)
 
 
 
