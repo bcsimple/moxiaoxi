@@ -52,8 +52,33 @@ export default {
     '/notes/operator/network': [
         {
             text: 'network',
+            collapsed: false,
             items: [
-                {text: 'Index', link: '/guide/'},
+                {
+                    text: 'iptables资料',
+                    items: [
+                        {
+                            text: "iptables基础",
+                            collapsed: false,
+                            link: "/notes/operator/network/basic"
+                        },
+                        {
+                            text: "故障案例分析",
+                            collapsed: false,
+                            items: [
+                                {
+                                    text:"iptables流量拦截故障",
+                                    link: "/notes/operator/network/iptables/iptables01"
+                                },
+                                {
+                                    text:"iptables增加日志功能分析",
+                                    link: "/notes/operator/network/iptables/iptables02"
+                                }
+                            ]
+
+                        }
+                    ]
+                },
                 {text: 'One', link: '/guide/one'},
                 {text: 'Two', link: '/guide/two'}
             ]
