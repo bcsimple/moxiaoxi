@@ -21,7 +21,17 @@ export default {
     ],
     '/notes/operator/docker': [
         {
-            text: 'docker',
+            text: 'docker基础',
+            collapsed: false,
+            items: [
+                {text: 'docker基础', link: '/notes/operator/docker/test'},
+                {text: 'docker部署', link: '/notes/operator/docker/test1'},
+                {text: 'docker搭建', link: '/notes/operator/docker/test2'}
+            ]
+        },
+        {
+            text: 'docker故障排查案例',
+            collapsed: false,
             items: [
                 {text: 'docker基础', link: '/notes/operator/docker/test'},
                 {text: 'docker部署', link: '/notes/operator/docker/test1'},
@@ -51,36 +61,35 @@ export default {
     ],
     '/notes/operator/network': [
         {
-            text: 'network',
+            text: 'iptables基础',
             collapsed: false,
             items: [
                 {
-                    text: 'iptables资料',
                     items: [
                         {
-                            text: "iptables基础",
-                            collapsed: false,
+                            text: "iptables概念",
                             link: "/notes/operator/network/basic"
                         },
                         {
-                            text: "故障案例分析",
-                            collapsed: false,
-                            items: [
-                                {
-                                    text:"iptables流量拦截故障",
-                                    link: "/notes/operator/network/iptables/iptables01"
-                                },
-                                {
-                                    text:"iptables增加日志功能分析",
-                                    link: "/notes/operator/network/iptables/iptables02"
-                                }
-                            ]
-
-                        }
+                            text: "iptables命令",
+                            link: "/notes/operator/network/basic"
+                        },
                     ]
                 },
-                {text: 'One', link: '/guide/one'},
-                {text: 'Two', link: '/guide/two'}
+            ]
+        },
+        {
+            text: "iptables故障排查案例",
+            collapsed: false,
+            items: [
+                {
+                    text:"iptables流量拦截故障",
+                    link: "/notes/operator/network/iptables/iptables01"
+                },
+                {
+                    text:"iptables增加日志功能分析",
+                    link: "/notes/operator/network/iptables/iptables02"
+                }
             ]
         }
     ],

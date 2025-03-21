@@ -6,9 +6,18 @@ export default  [
         items: [
             { text: 'Docker',link: '/notes/operator/docker/docker'},
             { text: 'Linux', link: '/notes/operator/linux/linux' },
-            { text: 'Network', link: '/notes/operator/network/network'},
+            {
+                text: 'Network',
+                items:[
+                    {
+                        text: "iptables",
+                        link: '/notes/operator/network/iptables/iptables01'
+                    }
+                ]
+            },
             { text: 'Ansible', link: '/notes/operator/ansible/ansible'}
         ]
     },
     { text: '培训相关', link: '/notes/training/training' },
 ]
+
